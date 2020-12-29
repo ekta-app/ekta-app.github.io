@@ -10,5 +10,5 @@ Ekta is a unified platform for the collegiate Desi performing circuits. It has c
 
 ## Team
 
-- **Arjun Aggarwal** Co-Founder, CEO
+- [**Arjun Aggarwal**](https://www.linkedin.com/in/arjun-aggarwal) Co-Founder, CEO
 - [**Sarang Joshi**](https://sarangjo.github.io) Co-Founder, CTO
