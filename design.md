@@ -1,6 +1,5 @@
 ---
 title: Ekta Design
-layout: template
 filename: design
 ---
 
