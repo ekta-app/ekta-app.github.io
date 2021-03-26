@@ -1,5 +1,6 @@
 ---
 title: Ekta Design
+layout: default
 filename: design
 ---
 
