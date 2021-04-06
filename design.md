@@ -16,6 +16,18 @@ filename: design
 - An organization is a **team** or **competition**.
 - Most organizations will imported by **championships**.
 
+### Publishing
+
+- An organization instance has a notion of being **published**.
+- A captain can **publish** and **unpublish** the organization freely.
+- Publishing only affects the _visibility_ of the organization to the rest of the platform. If an organization is published, it will show up in:
+  - team/competition directory pages
+  - when a user is trying to join an organization
+
+### Releasing
+
+### Elevated Competitions, a.k.a. Championship Competitions
+
 ## Membership
 
 - Users are associated with **organizations** through **yearly** membership.
