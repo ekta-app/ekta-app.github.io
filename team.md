@@ -1,5 +1,5 @@
 ## Meet the Team!
----
+
 ### [**Arjun Aggarwal**](https://www.linkedin.com/in/arjun-aggarwal) Co-Founder, CEO
 *(Pronouns: He/him/his)*
 
