@@ -22,6 +22,7 @@ Quick step-by-step guide to get situated on Ekta:
    2. Search for your team/competition in the drop-down.
    3. If you found it:
       1. Select your team/competition and enter the captains' join code that was provided by your organization's officers or the championship board for your circuit.
+      2. If you are an officer, **make sure to select "Officer" in the drop-down.**
    4. If you can't find it:
       1. Switch to the "Create" tab and create your team/competition
 
