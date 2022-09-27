@@ -16,7 +16,7 @@ Quick step-by-step guide to get situated on Ekta:
    1. If you were a captain/officer/member of a team/competition that used Ekta last year:
       1. Use your individual email that was used for last year to log in. If you forgot your password, use the "Forgot Password" button with your individual email.
    2. If you are a new captain/officer/member of a team/competition, or did not use Ekta last year:
-      1. Use your individual email to create a new account at https://ekta.app/signup
+      1. Use your individual email to create a new account at [https://ekta.app/signup](https://ekta.app/signup).
 2. **Step 2: Join or Create your Team/Competition**
    1. In the top-right corner, click on your profile picture and click on the "+ New Membership" button
    2. Search for your team/competition in the drop-down.
