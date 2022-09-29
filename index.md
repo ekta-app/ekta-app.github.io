@@ -25,8 +25,3 @@ Quick step-by-step guide to get situated on Ekta:
       2. If you are an officer, **make sure to select "Officer" in the drop-down.**
    4. If you can't find it:
       1. Switch to the "Create" tab and create your team/competition
-
-## Team
-
-- [**Arjun Aggarwal**](https://www.linkedin.com/in/arjun-aggarwal) Co-Founder, CEO
-- [**Sarang Joshi**](https://sarangjo.github.io) Co-Founder, CTO
