@@ -1,0 +1,643 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ekta API</title>
+    <style type="text/css">
+      body {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 15px;
+	color: #444;
+	margin-right: 24px;
+}
+
+h1	{
+	font-size: 25px;
+}
+h2	{
+	font-size: 20px;
+}
+h3	{
+	font-size: 16px;
+	font-weight: bold;
+}
+hr	{
+	height: 1px;
+	border: 0;
+	color: #ddd;
+	background-color: #ddd;
+}
+
+.app-desc {
+  clear: both;
+  margin-left: 20px;
+}
+.param-name {
+  width: 100%;
+}
+.license-info {
+  margin-left: 20px;
+}
+
+.license-url {
+  margin-left: 20px;
+}
+
+.model {
+  margin: 0 0 0px 20px;
+}
+
+.method {
+  margin-left: 20px;
+}
+
+.method-notes	{
+	margin: 10px 0 20px 0;
+	font-size: 90%;
+	color: #555;
+}
+
+pre {
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.http-method {
+ text-transform: uppercase;
+}
+
+pre.get {
+  background-color: #0f6ab4;
+}
+
+pre.post {
+  background-color: #10a54a;
+}
+
+pre.put {
+  background-color: #c5862b;
+}
+
+pre.delete {
+  background-color: #a41e22;
+}
+
+.huge	{
+	color: #fff;
+}
+
+pre.example {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+code {
+  white-space: pre;
+}
+
+.nickname {
+  font-weight: bold;
+}
+
+.method-path {
+  font-size: 1.5em;
+  background-color: #0f6ab4;
+}
+
+.up {
+  float:right;
+}
+
+.parameter {
+  width: 500px;
+}
+
+.param {
+  width: 500px;
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+}
+
+.param-desc {
+  width: 700px;
+  padding: 0 0 0 20px;
+  color: #777;
+}
+
+.param-type {
+  font-style: italic;
+}
+
+.param-enum-header {
+width: 700px;
+padding: 0 0 0 60px;
+color: #777;
+font-weight: bold;
+}
+
+.param-enum {
+width: 700px;
+padding: 0 0 0 80px;
+color: #777;
+font-style: italic;
+}
+
+.field-label {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+.field-items	{
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
+}
+
+.return-type {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.param-header {
+  font-weight: bold;
+}
+
+.method-tags {
+  text-align: right;
+}
+
+.method-tag {
+  background: none repeat scroll 0% 0% #24A600;
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin: 2px;
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+}
+
+    </style>
+  </head>
+  <body>
+  <h1>Ekta API</h1>
+    <div class="app-desc">An API to interact with the Ekta data</div>
+    <div class="app-desc">More information: <a href="https://about.ekta.app">https://about.ekta.app</a></div>
+    <div class="app-desc">Contact Info: <a href="sarang@ekta.app">sarang@ekta.app</a></div>
+    <div class="app-desc">Version: 1.0.0</div>
+    <div class="app-desc">BasePath:/api</div>
+    <div class="license-info">All rights reserved</div>
+    <div class="license-url">http://apache.org/licenses/LICENSE-2.0.html</div>
+  <h2>Access</h2>
+
+  <h2><a name="__Methods">Methods</a></h2>
+  [ Jump to <a href="#__Models">Models</a> ]
+
+  <h3>Table of Contents </h3>
+  <div class="method-summary"></div>
+  <h4><a href="#Default">Default</a></h4>
+  <ul>
+  <li><a href="#listOIsSeason"><code><span class="http-method">get</span> /organizationInstance/season/{season}</code></a></li>
+  <li><a href="#welcome"><code><span class="http-method">get</span> /</code></a></li>
+  </ul>
+
+  <h1><a name="Default">Default</a></h1>
+  <div class="method"><a name="listOIsSeason"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /organizationInstance/season/{season}</code></pre></div>
+    <div class="method-summary">List organization instances for the given season (<span class="nickname">listOIsSeason</span>)</div>
+    <div class="method-notes"></div>
+
+    <h3 class="field-label">Path parameters</h3>
+    <div class="field-items">
+      <div class="param">season (required)</div>
+
+      <div class="param-desc"><span class="param-type">Path Parameter</span> &mdash; Season to list organization instances for default: null </div>
+    </div>  <!-- field-items -->
+
+
+
+
+    <h3 class="field-label">Query parameters</h3>
+    <div class="field-items">
+      <div class="param">circuit (optional)</div>
+
+      <div class="param-desc"><span class="param-type">Query Parameter</span> &mdash; Limit response to specific circuit(s) default: null </div>
+    </div>  <!-- field-items -->
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      array[<a href="#OrganizationInstance">OrganizationInstance</a>]
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "organizationId" : "organizationId",
+  "elevated" : true,
+  "verified" : true,
+  "season" : "season",
+  "_id" : "_id",
+  "published" : true,
+  "info" : {
+    "website" : "website",
+    "headerPicture" : "headerPicture",
+    "primaryColor" : "primaryColor",
+    "bio" : "bio",
+    "blurb" : "blurb",
+    "foundedYear" : "foundedYear",
+    "affiliation" : "affiliation",
+    "membersPicture" : "membersPicture",
+    "contact" : {
+      "snapchat" : "snapchat",
+      "twitter" : "twitter",
+      "facebook" : "facebook",
+      "instagram" : "instagram",
+      "email" : "email"
+    },
+    "name" : "name",
+    "logo" : "logo",
+    "location" : {
+      "city" : "city",
+      "state" : "state"
+    },
+    "secondaryColor" : "secondaryColor"
+  }
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    List of organization instances
+        
+  </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="welcome"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /</code></pre></div>
+    <div class="method-summary">API welcome (<span class="nickname">welcome</span>)</div>
+    <div class="method-notes"></div>
+
+
+
+
+
+
+
+    <h3 class="field-label">Return type</h3>
+    <div class="return-type">
+      <a href="#welcome_200_response">welcome_200_response</a>
+      
+    </div>
+
+    <!--Todo: process Response Object and its headers, schema, examples -->
+
+    <h3 class="field-label">Example data</h3>
+    <div class="example-data-content-type">Content-Type: application/json</div>
+    <pre class="example"><code>{
+  "message" : "Welcome to the Ekta API!"
+}</code></pre>
+
+    <h3 class="field-label">Produces</h3>
+    This API call produces the following media types according to the <span class="header">Accept</span> request header;
+    the media type will be conveyed by the <span class="header">Content-Type</span> response header.
+    <ul>
+      <li><code>application/json</code></li>
+    </ul>
+
+    <h3 class="field-label">Responses</h3>
+    <h4 class="field-label">200</h4>
+    A hello message
+        <a href="#welcome_200_response">welcome_200_response</a>
+  </div> <!-- method -->
+  <hr/>
+
+  <h2><a name="__Models">Models</a></h2>
+  [ Jump to <a href="#__Methods">Methods</a> ]
+
+  <h3>Table of Contents</h3>
+  <ol>
+    <li><a href="#CircuitType"><code>CircuitType</code> - </a></li>
+    <li><a href="#CompCircuitInfo"><code>CompCircuitInfo</code> - </a></li>
+    <li><a href="#CompInstanceInfo"><code>CompInstanceInfo</code> - </a></li>
+    <li><a href="#CompInstanceInfoExtension"><code>CompInstanceInfoExtension</code> - CompInstanceInfoExtension</a></li>
+    <li><a href="#CompInstanceInfoExtension_tech"><code>CompInstanceInfoExtension_tech</code> - </a></li>
+    <li><a href="#CompInstanceInfoExtension_venue"><code>CompInstanceInfoExtension_venue</code> - </a></li>
+    <li><a href="#CompTimeline"><code>CompTimeline</code> - </a></li>
+    <li><a href="#CompTimelineExtension"><code>CompTimelineExtension</code> - CompTimelineExtension</a></li>
+    <li><a href="#CompetitionInstance"><code>CompetitionInstance</code> - </a></li>
+    <li><a href="#CompetitionInstanceExtension"><code>CompetitionInstanceExtension</code> - CompetitionInstanceExtension</a></li>
+    <li><a href="#Deadline"><code>Deadline</code> - </a></li>
+    <li><a href="#Label"><code>Label</code> - </a></li>
+    <li><a href="#Label_info"><code>Label_info</code> - </a></li>
+    <li><a href="#OrgContact"><code>OrgContact</code> - </a></li>
+    <li><a href="#OrgInstanceInfo"><code>OrgInstanceInfo</code> - </a></li>
+    <li><a href="#OrgLocation"><code>OrgLocation</code> - </a></li>
+    <li><a href="#OrgType"><code>OrgType</code> - </a></li>
+    <li><a href="#OrganizationInstance"><code>OrganizationInstance</code> - </a></li>
+    <li><a href="#SubmissionDate"><code>SubmissionDate</code> - </a></li>
+    <li><a href="#TeamInstance"><code>TeamInstance</code> - </a></li>
+    <li><a href="#TeamInstanceExtension"><code>TeamInstanceExtension</code> - TeamInstanceExtension</a></li>
+    <li><a href="#TeamInstanceInfo"><code>TeamInstanceInfo</code> - </a></li>
+    <li><a href="#TeamInstanceInfoExtension"><code>TeamInstanceInfoExtension</code> - TeamInstanceInfoExtension</a></li>
+    <li><a href="#welcome_200_response"><code>welcome_200_response</code> - </a></li>
+  </ol>
+
+  <div class="model">
+    <h3><a name="CircuitType"><code>CircuitType</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+          </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompCircuitInfo"><code>CompCircuitInfo</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">appPacket (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">auditionVideoRules (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">timeline (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompTimeline">CompTimeline</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompInstanceInfo"><code>CompInstanceInfo</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">logo (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">contact (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgContact">OrgContact</a></span>  </div>
+<div class="param">affiliation (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">location (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgLocation">OrgLocation</a></span>  </div>
+<div class="param">website (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">bio (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">primaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">secondaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">foundedYear (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">blurb (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">headerPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">membersPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">appInfo (optional)</div><div class="param-desc"><span class="param-type"><a href="#object">Object</a></span>  </div>
+<div class="param">date (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">appInfoByCircuit (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompCircuitInfo">map[String, CompCircuitInfo]</a></span>  </div>
+<div class="param">welcomeBlurb (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">tech (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfoExtension_tech">CompInstanceInfoExtension_tech</a></span>  </div>
+<div class="param">prizeInfo (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">perks (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">venue (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfoExtension_venue">CompInstanceInfoExtension_venue</a></span>  </div>
+<div class="param">beneficiary (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">hostOrganization (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">propBoxDimensions (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompInstanceInfoExtension"><code>CompInstanceInfoExtension</code> - CompInstanceInfoExtension</a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">appInfo (optional)</div><div class="param-desc"><span class="param-type"><a href="#object">Object</a></span>  </div>
+<div class="param">date (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">appInfoByCircuit (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompCircuitInfo">map[String, CompCircuitInfo]</a></span>  </div>
+<div class="param">welcomeBlurb (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">tech (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfoExtension_tech">CompInstanceInfoExtension_tech</a></span>  </div>
+<div class="param">prizeInfo (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">perks (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">venue (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfoExtension_venue">CompInstanceInfoExtension_venue</a></span>  </div>
+<div class="param">beneficiary (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">hostOrganization (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">propBoxDimensions (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompInstanceInfoExtension_tech"><code>CompInstanceInfoExtension_tech</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">dimensions (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompInstanceInfoExtension_venue"><code>CompInstanceInfoExtension_venue</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">address (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">capacity (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompTimeline"><code>CompTimeline</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">early (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">regular (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">late (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">groupNotification (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">groupCommitment (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompTimelineExtension"><code>CompTimelineExtension</code> - CompTimelineExtension</a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">groupNotification (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">groupCommitment (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompetitionInstance"><code>CompetitionInstance</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">_id (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfo">CompInstanceInfo</a></span>  </div>
+<div class="param">organizationId (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">season (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">published (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">orgType (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgType">OrgType</a></span>  </div>
+<div class="param">verified (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span> NOT USED CURRENTLY. PLACEHOLDER FOR FUTURE </div>
+<div class="param">elevated (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">circuitTypes (optional)</div><div class="param-desc"><span class="param-type"><a href="#CircuitType">array[CircuitType]</a></span>  </div>
+<div class="param">released (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">labels (optional)</div><div class="param-desc"><span class="param-type"><a href="#Label">array[Label]</a></span>  </div>
+<div class="param">extendedTimeline (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> NOT USED CURRENTLY. PLACEHOLDER FOR FUTURE </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="CompetitionInstanceExtension"><code>CompetitionInstanceExtension</code> - CompetitionInstanceExtension</a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#CompInstanceInfo">CompInstanceInfo</a></span>  </div>
+<div class="param">circuitTypes (optional)</div><div class="param-desc"><span class="param-type"><a href="#CircuitType">array[CircuitType]</a></span>  </div>
+<div class="param">released (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">labels (optional)</div><div class="param-desc"><span class="param-type"><a href="#Label">array[Label]</a></span>  </div>
+<div class="param">extendedTimeline (optional)</div><div class="param-desc"><span class="param-type"><a href="#integer">Integer</a></span> NOT USED CURRENTLY. PLACEHOLDER FOR FUTURE </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="Deadline"><code>Deadline</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">early (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">regular (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+<div class="param">late (optional)</div><div class="param-desc"><span class="param-type"><a href="#SubmissionDate">SubmissionDate</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="Label"><code>Label</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">ownerCiid (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">circuitType (optional)</div><div class="param-desc"><span class="param-type"><a href="#CircuitType">CircuitType</a></span>  </div>
+<div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#Label_info">Label_info</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="Label_info"><code>Label_info</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">badge (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">color (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">description (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="OrgContact"><code>OrgContact</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">email (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">facebook (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">instagram (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">twitter (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">snapchat (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="OrgInstanceInfo"><code>OrgInstanceInfo</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">logo (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">contact (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgContact">OrgContact</a></span>  </div>
+<div class="param">affiliation (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">location (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgLocation">OrgLocation</a></span>  </div>
+<div class="param">website (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">bio (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">primaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">secondaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">foundedYear (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">blurb (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">headerPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">membersPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="OrgLocation"><code>OrgLocation</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">city (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">state (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="OrgType"><code>OrgType</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+          </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="OrganizationInstance"><code>OrganizationInstance</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">_id (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgInstanceInfo">OrgInstanceInfo</a></span>  </div>
+<div class="param">organizationId (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">season (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">published (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">orgType (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgType">OrgType</a></span>  </div>
+<div class="param">verified (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span> NOT USED CURRENTLY. PLACEHOLDER FOR FUTURE </div>
+<div class="param">elevated (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="SubmissionDate"><code>SubmissionDate</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">due (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">fee (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="TeamInstance"><code>TeamInstance</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">_id (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#TeamInstanceInfo">TeamInstanceInfo</a></span>  </div>
+<div class="param">organizationId (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">season (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">published (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">orgType (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgType">OrgType</a></span>  </div>
+<div class="param">verified (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span> NOT USED CURRENTLY. PLACEHOLDER FOR FUTURE </div>
+<div class="param">elevated (optional)</div><div class="param-desc"><span class="param-type"><a href="#boolean">Boolean</a></span>  </div>
+<div class="param">circuitType (optional)</div><div class="param-desc"><span class="param-type"><a href="#CircuitType">CircuitType</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="TeamInstanceExtension"><code>TeamInstanceExtension</code> - TeamInstanceExtension</a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">info (optional)</div><div class="param-desc"><span class="param-type"><a href="#TeamInstanceInfo">TeamInstanceInfo</a></span>  </div>
+<div class="param">circuitType (optional)</div><div class="param-desc"><span class="param-type"><a href="#CircuitType">CircuitType</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="TeamInstanceInfo"><code>TeamInstanceInfo</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">name (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">logo (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">contact (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgContact">OrgContact</a></span>  </div>
+<div class="param">affiliation (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">location (optional)</div><div class="param-desc"><span class="param-type"><a href="#OrgLocation">OrgLocation</a></span>  </div>
+<div class="param">website (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">bio (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">primaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">secondaryColor (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">foundedYear (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">blurb (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">headerPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">membersPicture (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+<div class="param">gender (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+        <div class="param-enum-header">Enum:</div>
+        <div class="param-enum">allFemale</div><div class="param-enum">allMale</div><div class="param-enum">mixed</div>
+<div class="param">favorites (optional)</div><div class="param-desc"><span class="param-type"><a href="#object">Object</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="TeamInstanceInfoExtension"><code>TeamInstanceInfoExtension</code> - TeamInstanceInfoExtension</a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">gender (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+        <div class="param-enum-header">Enum:</div>
+        <div class="param-enum">allFemale</div><div class="param-enum">allMale</div><div class="param-enum">mixed</div>
+<div class="param">favorites (optional)</div><div class="param-desc"><span class="param-type"><a href="#object">Object</a></span>  </div>
+    </div>  <!-- field-items -->
+  </div>
+  <div class="model">
+    <h3><a name="welcome_200_response"><code>welcome_200_response</code> - </a> <a class="up" href="#__Models">Up</a></h3>
+    <div class='model-description'></div>
+    <div class="field-items">
+      <div class="param">message (optional)</div><div class="param-desc"><span class="param-type"><a href="#string">String</a></span>  </div>
+        <div class="param-enum-header">Enum:</div>
+        <div class="param-enum">Welcome to the Ekta API!</div>
+    </div>  <!-- field-items -->
+  </div>
+  </body>
+</html>
