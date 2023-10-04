@@ -8,11 +8,9 @@ Ekta is a unified platform for the collegiate Desi performing circuits. It has c
 
 <a href="https://ekta.app"><button>Go to Ekta</button></a>
 
-### More
+- [Quickstart](/quickstart)
 
-* [Quickstart](/quickstart)
+### See also:
 
-### Even more
-
-* [History](/history)
-* [Who are we?](/team)
+- [History](/history)
+- [Who are we?](/team)
