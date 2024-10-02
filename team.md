@@ -10,4 +10,4 @@ I was first exposed to the desi competitive circuits when I started as a freshma
 ### [**Sarang Joshi**](https://sarangjo.github.io) | Co-Founder, CTO
 *(Pronouns: He/him/his)*
 
-Sarang Joshi is a computer science PhD student and music enthusiast currently residing in Chicago, IL. He attended the University of Washington, Seattle, where he was a member of UW Awaaz and was musical director for the last 2 years. He joined ASA in 2018 and was a director from 2019 to 2021. He is the co-founder and CTO of Ekta and has been working on the platform since 2019. In his free time, he likes to sing, learn the drums, play video games, and play tennis.
+I am a computer science PhD student and music enthusiast currently residing in Chicago, IL. I attended the University of Washington, Seattle, where I was a member of UW Awaaz and was musical director for the last 2 years. I joined the Association of South-Asian A Cappella (ASA) in 2018 and was a director from 2019 to 2021. I am one of the co-founders and CTO of Ekta and have been working on the platform since 2019. In my free time, I like to sing, learn the drums, play video games, and play tennis.
