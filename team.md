@@ -11,3 +11,9 @@ I was first exposed to the desi competitive circuits when I started as a freshma
 *(Pronouns: He/him/his)*
 
 I am a computer science PhD student and music enthusiast currently residing in Chicago, IL. I attended the University of Washington, Seattle, where I was a member of UW Awaaz and was musical director for the last 2 years. I joined the Association of South-Asian A Cappella (ASA) in 2018 and was a director from 2019 to 2021. I am one of the co-founders and CTO of Ekta and have been working on the platform since 2019. In my free time, I like to sing, learn the drums, play video games, and play tennis.
+
+---
+### [**Divyesh Balamurali**](https://www.linkedin.com/in/divyeshbalamurali/)
+*(Pronouns: He/him/his)*
+
+I first developed a passion for South Asian fusion music when I joined OSU Dhadkan at Ohio State University in 2016, which introduced me to the rapidly growing South Asian A Cappella genre. This passion led me to join the Association of South-Asian A Cappella (ASA) in 2020, where I served as Director of All-American Awaaz (A3) from 2021 to 2023. Following my time at A3, I took on the role of Chief Operating Officer at ASA from 2023 to 2024, helping streamline operations and improve collaboration across the organization. I currently work as an Operations Analyst at Allegiant Air, and I’m excited to bring my experience in process optimization and operational excellence to the Ekta team. In my free time, I enjoy playing cricket, coaching chess, traveling to new states and national parks, and always gaining new knowledge.
