@@ -10,6 +10,7 @@ Ekta is a unified platform for the collegiate Desi performing circuits. It has c
 
 - [Quickstart](/quickstart)
 - [Join Codes](/joincodes)
+- [Publishing vs. Releasing](/pubrelease)
 
 ### See also:
 
